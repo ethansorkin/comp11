@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+  int int1, sum;
+  cout << "Type in eight integers" << endl;
+  cin >> int1;
+  sum = int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cout <<sum << endl;
+  return 0;
+}

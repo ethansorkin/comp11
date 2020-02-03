@@ -1,0 +1,61 @@
+Ethan Sorkin
+Comp11
+HW4
+Written
+
+
+Written #1
+16 points (4 each subpart)
+
+1A: Write a prototype for a C++ function named foo that returns nothing and 
+takes two integers as parameters, one pass-by-reference and one pass-by-value
+
+	void foo (int &, int);
+
+1B: Write a prototype for a C++ function named bar that returns a string and 
+takes no parameters.
+
+	string bar ( );
+
+1C: Write a line of C++ code that demonstrates calling your foo function.
+
+	foo (&variable1, variable2);
+
+1D: Write a line of C++ code that demonstrates calling your bar function. 
+
+	name = bar ( );
+
+Written #2
+12 points total, 4 each subpart
+
+Complete the following self-test exercises from chapter 4 of your textbook. 
+Some of these problems ask you to write functions; please write them just in 
+your written.txt file not in a compileable .cpp file.
+
+Exercise #5, pg. 203: 
+
+	Wow
+
+Exercise #12, pg. 204:
+
+	bool even (int n)
+	{
+	        return ((n % 2) == 0);
+	}
+
+Exercise #22, pg. 230:
+
+	Yes it will work properly.
+
+Written #3
+3 points
+What is the output of the following code snippet?
+
+const int MAX = 10;
+int temp[MAX];
+for (int i = 0; i < MAX; i++)
+temp[i] = 2*i;
+	for (int i = 0; i < MAX; i++)
+		cout << temp[i] << “ “;
+
+	Output: 0 2 4 6 8 10 12 14 16 18

@@ -1,0 +1,15 @@
+/* COMP 11 
+ * Lab 1, Spring 2017
+ * Starter Code */
+
+#include <iostream>
+using namespace std;
+
+const int SPIDER_TICKETS = 3;
+const int MINION_TICKETS = 10;
+
+int main()
+{
+
+	return 0;
+}

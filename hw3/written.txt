@@ -1,0 +1,34 @@
+Ethan Sorkin
+Comp 11
+Homework 3
+Written #1
+
+Complete the following self-test exercises from chapter 3 of your textbook. 
+
+Exercise #23, pg. 144:
+
+1 2 3 4
+
+Exercise #25, pg. 151:
+
+2 4 6 8
+
+Exercise #26, pg. 151:
+
+Hello 10
+Hello 8
+Hello 6
+Hello 4
+Hello 2
+
+Exercise #29a, pg. 151:
+
+for (int i = 1; i <= 10; i++)
+{
+     if (i < 5 && i != 2)
+	cout << ‘X’
+}
+
+Exercise #33, pg. 154:
+
+4 3 End of Loop

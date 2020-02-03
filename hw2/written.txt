@@ -1,0 +1,129 @@
+Ethan Sorkin
+2/9/17
+Comp 11
+Laney Strange
+
+Written Part: 43 points total
+
+Written #1:
+20 points, 4 each subpart
+
+For each of the code snippets below, predict the output. Some of the programs have sample input. Predict the output for the given input. Assume each snippet is contained within a larger, fully-formed C++ program. 
+
+1A. 
+if (6 < 2 * 5)
+cout << "Hello";
+cout << “ there”;
+
+Output: Hello there
+
+1B.
+if (6 > 2 * 5)
+cout << "Hello";
+cout << “ there”;
+
+Output: No output
+
+1C.
+if (x > 2) 
+{
+    if (y > 2) 
+    {
+        z = x + y;
+        cout << "z is " << z;
+    }
+}
+else
+     cout << "x is " << x;
+
+// Inputs: x = 3, y = 2 
+
+	Output: No output
+
+1D. 
+if (a < b)
+{
+cout << "*";
+a++;
+}
+else if (a == b)
+cout << "&";
+else
+cout << "$";
+// Inputs: a = 1, b = 2
+
+Output: *2
+
+1E. 
+switch (day)
+  {
+    case 1 :
+    case 7 : cout << "This is a weekend day";
+             break;
+    case 2 :
+    case 3 :
+    case 4 :
+    case 5 :
+    case 6 : cout << "This is a weekday";
+             break;
+    default : cout << "Not a legal day";
+              break;
+  }
+
+  // Input: day = 5
+
+Output: No output
+
+
+Written #2: Textbook page 92, Exercises 28-31
+8 points (2 each subpart)
+
+28. Output : 1
+29. No Output
+30. Output : 1
+31. Output: -42
+
+Written #3:
+15 points total, 5 each subpart
+
+Consider the following switch statement:
+int y = 3, x = 3;
+switch (x + 3)
+{
+case 6: 
+y = 1;
+default: 
+y += 1;
+}
+
+3a. What is the value of y after the switch statement is executed?
+
+Y = 2
+
+3b. Modify the switch statement so that the value of y will turn out to be 1.
+
+int y = 3, x = 3;
+
+switch (x + 3)
+{
+case 6: 
+    y = 1;
+    break;
+default: 
+    y += 1;
+
+}
+
+3c. Rewrite the modified switch statement as a conditional.
+
+int y = 3, x = 3;
+
+if (x + 3 == 6)
+{
+	y = 1;
+}
+
+else
+{
+	y += 1;
+}

@@ -1,0 +1,37 @@
+/***********
+* COMP11
+* Homework 1
+* Problem 1
+* Ethan Sorkin
+*
+ * declare variables: int1, sum
+ * ask to type in eight integers
+ * user types in variables and presses enter
+ * program shows sum of integers
+ * ********/
+
+#include <iostream>
+using namespace std;
+int main ()
+{
+  int int1, sum;
+  cout << "Type in eight integers" << endl;
+  cin >> int1;
+  sum = int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cin >> int1;
+  sum = sum + int1;
+  cout <<sum << endl;
+  return 0;
+}
